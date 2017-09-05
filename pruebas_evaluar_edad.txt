@@ -28,3 +28,6 @@ eres Mumm-Ra
 
 >>> edad.evaluar_edad(120)
 eres Mumm-Ra
+
+>>> edad.evaluar_edad('u')
+debes insertar un número

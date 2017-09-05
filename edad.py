@@ -2,7 +2,9 @@
 
 class Edad:
     def evaluar_edad(self, edad):
-        if edad < 0:
+        if not isinstance(edad, (int, float)):
+            print('debes insertar un número')
+        elif edad < 0:
             print('no existes')
         elif edad == 0:
             print('eres un recién nacido')
