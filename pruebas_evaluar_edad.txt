@@ -1,0 +1,9 @@
+# Pruebas de la clase Edad
+# Archivo: edad.py
+# Función: evaluar_edad
+
+>>> from edad import Edad
+>>> edad = Edad()
+
+>>> edad.evaluar_edad(-1)
+no existes
