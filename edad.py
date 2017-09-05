@@ -4,6 +4,8 @@ class Edad:
     def evaluar_edad(self, edad):
         if edad < 0:
             print('no existes')
+        elif edad == 0:
+            print('eres un recién nacido')
         elif edad < 13:
             print('eres niño')
         elif edad < 18:
