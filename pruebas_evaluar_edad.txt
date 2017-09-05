@@ -7,3 +7,21 @@
 
 >>> edad.evaluar_edad(-1)
 no existes
+
+>>> edad.evaluar_edad(12)
+eres niño
+
+>>> edad.evaluar_edad(17)
+eres adolescente
+
+>>> edad.evaluar_edad(64)
+eres adulto
+
+>>> edad.evaluar_edad(119)
+eres adulto mayor
+
+>>> edad.evaluar_edad(121)
+eres Mumm-Ra
+
+>>> edad.evaluar_edad(120)
+eres Mumm-Ra
